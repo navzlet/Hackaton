@@ -1,0 +1,70 @@
+.container {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  max-width: 360px;
+  margin: 30px;
+  min-height: 200px;
+  max-height: 500px;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+.loadingContainer {
+  margin-top: 50px;
+}
+
+.list_container {
+  overflow-y: auto;
+  max-height: 420px;
+}
+
+.list_container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.list_container::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.list_container::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border-left: 0;
+  border-right: 0;
+  background-color: #8BBAE8;
+}
+
+.title {
+  color: rgb(15, 15, 15);
+  margin-bottom: 15px;
+}
+
+.csvList {
+  list-style: none;
+  padding: 0;
+}
+
+.csvListLink {
+  text-decoration: none;
+}
+
+.csvListItem {
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(24, 24, 24);
+  word-wrap: break-word;
+}
+
+.csvListItem:hover {
+  background-color: rgba(215, 215, 215, 0.61);
+}
+
+.csvListItem:active {
+  background-color: rgba(215, 215, 215, 0.405);
+}
+
+.nullFiles {
+  display: block;
+  margin: 0 0 30px 0;
+  color: rgb(110, 110, 110);
+}

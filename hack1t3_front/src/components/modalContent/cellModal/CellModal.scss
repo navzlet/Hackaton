@@ -1,0 +1,99 @@
+.CellModal {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  .CellModal_titleContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .CellModal_title {
+    text-transform: uppercase;
+    color: #6C6C6C;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+
+  .CellModal_titleBtn {
+    padding: 4px 0px 0px 0px;
+
+    svg {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  .CellModal_originalText {
+    max-height: 250px;
+    overflow: hidden;
+    overflow-y: auto;
+    white-space: normal;
+    word-wrap: break-word;
+    color: #111111;
+    font-size: 18px;
+  }
+
+  .CellModal_originalText::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .CellModal_originalText::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+  }
+
+  .CellModal_originalText::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border-left: 0;
+    border-right: 0;
+    background-color: #8BBAE8;
+  }
+
+  .newValue_Textarea {
+    margin-top: 10px;
+    font-size: 18px;
+    resize: vertical;
+    min-height: 35px;
+    height: 100px;
+    width: 100%;
+    max-width: 940px;
+    max-height: 300px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    outline: none;
+    -moz-appearance: none;
+  }
+
+  .newValue_Textarea::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .newValue_Textarea::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+  }
+
+  .newValue_Textarea::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    border-left: 0;
+    border-right: 0;
+    background-color: #cfcfcf;
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .mainButtons {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+
+}
